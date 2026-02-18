@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<title>Three Hearts Day — March 3</title>
-<meta name="description" content="Three Hearts Day celebrates throuples, triads, and chosen families. Use #ThreeHeartsDay and share your love." />
-
-<!-- Open Graph -->
-<meta property="og:title" content="Three Hearts Day — March 3" />
-<meta property="og:description" content="Celebrating throuples, triads, and chosen families. Use #ThreeHeartsDay and share your love." />
-<meta property="og:image" content="https://threeheartsday.com/og-image.jpg" />
-<meta property="og:url" content="https://threeheartsday.com" />
-<meta property="og:type" content="website" />
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Three Hearts Day — March 3" />
-<meta name="twitter:description" content="Celebrating throuples, triads, and chosen families. Use #ThreeHeartsDay and share your love." />
-<meta name="twitter:image" content="https://threeheartsday.com/og-image.jpg" />
-
-<style>
 body {
   margin: 0;
   background-color: #111111;
@@ -43,7 +20,7 @@ body {
   font-size: 2.2rem;
   margin-bottom: 40px;
   letter-spacing: 18px;
-  opacity: 0.85;
+  color: #f4a6b8;
 }
 
 h1 {
@@ -54,27 +31,38 @@ h1 {
 
 .date {
   margin-top: 18px;
-  font-size: 0.95rem;
-  opacity: 0.6;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
+  font-size: 1.1rem;
+  color: #f4a6b8;
 }
 
 .tagline {
   margin-top: 50px;
   font-size: 1.5rem;
   font-weight: 500;
+  color: #f4a6b8;
+  position: relative;
+  display: inline-block;
+}
+
+.tagline::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: #f4a6b8;
+  margin: 12px auto 0;
+  border-radius: 2px;
 }
 
 .mission {
-  margin-top: 35px;
+  margin-top: 40px;
   font-size: 1.05rem;
   line-height: 1.9;
   opacity: 0.85;
 }
 
 .mission strong {
-  color: #ff4da6;
+  color: #f4a6b8;
   font-weight: 600;
 }
 
@@ -86,13 +74,12 @@ h1 {
 a {
   color: #f5f5f5;
   text-decoration: none;
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f4a6b8;
   transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #ff4da6;
-  border-color: #ff4da6;
+  color: #f4a6b8;
 }
 
 .social {
@@ -107,54 +94,3 @@ a:hover {
   margin: 0 12px;
   border: none;
 }
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.4rem;
-  }
-  .tagline {
-    font-size: 1.25rem;
-  }
-  .mission {
-    font-size: 1rem;
-  }
-}
-</style>
-</head>
-
-<body>
-<div class="container">
-
-<div class="hearts">♥ ♥ ♥</div>
-
-<h1>Three Hearts Day</h1>
-
-<div class="date">March 3</div>
-
-<div class="tagline">Three Hearts. One Love.</div>
-
-<div class="mission">
-A day dedicated to throuples, triads, and chosen families building life together.
-<br><br>
-Three Hearts Day amplifies love that doesn’t fit traditional boxes —
-not as a trend, but as a truth.
-<br><br>
-On March 3 — and every day — share your story.
-<br>
-Tag your photos with <strong>#ThreeHeartsDay</strong> to celebrate throuples, triads, and chosen families everywhere.
-</div>
-
-<div class="cta">
-Want to be featured?<br>
-<a href="mailto:threeheartsday@gmail.com">threeheartsday@gmail.com</a>
-</div>
-
-<div class="social">
-<a href="https://www.instagram.com/threeheartsday/" target="_blank">Instagram</a> ·
-<a href="https://www.threads.com/@threeheartsday" target="_blank">Threads</a> ·
-<a href="https://bsky.app/profile/threeheartsday.bsky.social" target="_blank">Bluesky</a>
-</div>
-
-</div>
-</body>
-</html>
